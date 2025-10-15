@@ -1,0 +1,43 @@
+/* jumbotron */
+main .jumbotron-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .jumbotron-article .img-article {
+    max-width: 1920px;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+main .title-article {
+    margin-bottom: 0;
+}
+
+main .title-article h2.main-title{
+    text-align: center;
+    color: aqua;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+main {
+    color: white;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+main .main-content {
+    display: flex;
+}
+
+main .main-content aside .author-card {
+    display: flex;
+    flex-direction: column;
+}
