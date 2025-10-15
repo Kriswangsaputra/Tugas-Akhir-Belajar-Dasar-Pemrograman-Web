@@ -420,7 +420,7 @@ main {
     color: white;
     display: flex;
     background-color: white;
-    padding: 3rem 4rem 3rem 4rem;
+    padding: 2rem 1rem 2rem 1rem;
     border-radius: 30px;
     gap: 2em;
 }
@@ -587,6 +587,8 @@ main {
     flex-direction: column;
     gap: 2em;
     font-size: 1rem;
+    padding-inline-start: 4rem;
+    padding-inline-end: 4rem;
 }
 
 .article .article-title {
@@ -686,6 +688,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 1em;
+    max-height: 200px;
 }
 
 .article .article-listing .article-listing-card .listing-description {
@@ -892,6 +895,10 @@ footer{
     }
 
     /* shop */
+    .shop {
+        padding-inline-start: 1rem;
+        padding-inline-end: 1rem;
+    }
     .shop .shop-container {
         flex-wrap: wrap;
     }
@@ -901,6 +908,10 @@ footer{
     }
 
     /* article */
+    .article {
+        padding-inline-start: 1rem;
+        padding-inline-end: 1rem;
+    }
     .article .article-title h3 {
         font-size: 1.8em;
     }
@@ -915,6 +926,14 @@ footer{
     }
     .article .main-article .main-article-card {
         max-width: 100%;
+    }
+    .article .article-listing .article-listing-card .listing-description .listing-title h4 {
+        font-size: 1em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .article .article-listing .article-listing-card .listing-description .article-category, .article-release-date {
+        font-size: 0.8em;
     }
 }
 
