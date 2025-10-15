@@ -420,7 +420,7 @@ main {
     color: white;
     display: flex;
     background-color: white;
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 2rem 2rem 2rem 2rem;
     border-radius: 30px;
     gap: 2em;
 }
@@ -896,8 +896,8 @@ footer{
 
     /* shop */
     .shop {
-        padding-inline-start: 1rem;
-        padding-inline-end: 1rem;
+        padding-inline-start: 0;
+        padding-inline-end: 0;
     }
     .shop .shop-container {
         flex-wrap: wrap;
@@ -909,8 +909,8 @@ footer{
 
     /* article */
     .article {
-        padding-inline-start: 1rem;
-        padding-inline-end: 1rem;
+        padding-inline-start: 0;
+        padding-inline-end: 0;
     }
     .article .article-title h3 {
         font-size: 1.8em;
